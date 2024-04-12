@@ -6,4 +6,4 @@ resources:
 
 images:
 - name: ghcr.io/carlos-avery/demo-app
-  newTag: latest
+  newTag: 8e0654df55850e43c1c8152667ce7d4b9724d851
