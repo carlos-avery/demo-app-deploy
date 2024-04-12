@@ -25,7 +25,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: ghcr.io/carlos-avery/demo-app:latest
+      - image: ghcr.io/carlos-avery/demo-app:8e0654df55850e43c1c8152667ce7d4b9724d851
         name: demo-app
         ports:
         - containerPort: 8080
