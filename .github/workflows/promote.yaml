@@ -45,7 +45,7 @@ jobs:
             git notes append -m "env: stage"
             git push origin "refs/notes/*" --force && git push origin main
           elif [ $ENV == "stage" ]; then
-            echo "Promoting $IMAGE to prod"
+            echo "Promoting $IMAGE to prod!!"
             git checkout -b auto-promotion-prod
             cd env/prod && kustomize edit set image $IMAGE
             git add .
